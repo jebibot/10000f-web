@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { getChannelUrl, getEmbedUrl, getThumbnailUrl } from "@/utils/twitch";
@@ -23,7 +24,7 @@ export default function StreamList({ streams }: { streams: Stream[] }) {
     <>
       <div className="flex flex-row items-center w-full p-2">
         <div className="flex-1 text-purple-300">
-          <div className="text-4xl font-bold">10000팔</div>
+          <Link href="/" className="text-4xl font-bold">10000팔</Link>
           <div>
             팔로워 수가 10,000명에 근접한 스트리머의 방송을 소개합니다.{" "}
             <span className="text-sm">
