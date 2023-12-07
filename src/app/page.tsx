@@ -32,7 +32,7 @@ export default async function Home() {
       ) : (
         <StreamList streams={data} />
       )}
-      <div className="text-gray-400 text-sm">
+      <div className="text-gray-400 text-sm px-4">
         <a
           className="hover:text-gray-300"
           href="https://github.com/jebibot/10000f-web"

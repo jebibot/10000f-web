@@ -99,7 +99,8 @@ export default function StreamList({ streams }: { streams: Stream[] }) {
                 </div>
                 <div>
                   <span className="text-gray-400">
-                    {s.name} ({s.username})
+                    {s.name}
+                    <span className="hidden sm:inline"> ({s.username})</span>
                   </span>
                   <span className="inline-flex items-center text-sm align-middle">
                     <svg
