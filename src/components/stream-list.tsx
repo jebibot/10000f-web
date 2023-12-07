@@ -94,7 +94,7 @@ export default function StreamList({ streams }: { streams: Stream[] }) {
                 />
               )}
               <div className="flex flex-col">
-                <div className="font-semibold line-clamp-3 hover:text-gray-300">
+                <div className="font-semibold line-clamp-2 sm:line-clamp-3 hover:text-gray-300">
                   {s.title}
                 </div>
                 <div>
@@ -104,7 +104,7 @@ export default function StreamList({ streams }: { streams: Stream[] }) {
                   </span>
                   <span className="inline-flex items-center text-sm align-middle">
                     <svg
-                      className="inline mx-1 fill-white"
+                      className="inline ml-2 mr-1 fill-white"
                       xmlns="http://www.w3.org/2000/svg"
                       height="12"
                       width="12"
