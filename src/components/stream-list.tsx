@@ -66,7 +66,7 @@ export default function StreamList({ streams }: { streams: Stream[] }) {
         allowFullScreen
         allow="autoplay; fullscreen"
       ></iframe>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 px-6 sm:px-0 py-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 px-3 sm:px-0 py-4">
         {streams?.map((s) => (
           <div
             key={s.username}
