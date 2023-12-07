@@ -32,6 +32,25 @@ export default async function Home() {
       ) : (
         <StreamList streams={data} />
       )}
+      <div className="text-gray-400 text-sm">
+        <a
+          className="hover:text-gray-300"
+          href="https://github.com/jebibot/10000f-web"
+          target="blank"
+        >
+          GitHub
+        </a>{" "}
+        · Inspired by{" "}
+        <a
+          className="hover:text-gray-300"
+          href="https://nobody.live/"
+          target="_blank"
+        >
+          nobody.live
+        </a>{" "}
+        · 본 사이트는 Twitch와 관련이 없으며, 관련 상표는 각 소유자의
+        자산입니다.
+      </div>
     </main>
   );
 }
